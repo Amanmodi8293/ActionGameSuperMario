@@ -1,0 +1,52 @@
+
+/* Container */
+
+@keyframes container{
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -5000vw;
+    }
+    
+}
+@keyframes road-animation{
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: -5000vw;
+    }
+    
+}
+@keyframes background-animation{
+    0%{
+        margin-left: -100vw;
+    }
+    100%{
+        margin-left: -5000vw;
+    }
+    
+}
+@keyframes container-boy{
+    0%{
+        left: -70vw;
+    }
+    100%{
+        left: 3550vw;
+    }
+}
+
+
+@keyframes road-animation
+{
+    100%{
+        transform: translatex(-5000vw)
+    }
+}
+@keyframes background-animation
+{
+    100%{
+        transform: translatex(-5000vw)
+    }
+}

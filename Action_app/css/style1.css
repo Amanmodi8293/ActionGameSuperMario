@@ -1,0 +1,169 @@
+
+/* cactus show in background */
+
+.cactus{
+    width: 300px;
+    height: 500px;
+    background: url(../image/cactus.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 300px;
+    left: 80vw;
+}
+
+.cactus1{
+    left: 240vw;
+}
+.cactus2{
+    left: 320vw;
+}
+.cactus3{
+    left: 640vw;
+}
+.cactus4{
+    left: 1040vw;
+}
+.cactus5{
+    left: 1120vw;
+}
+.cactus6{
+    left: 1520vw;
+}
+.cactus7{
+    left: 1840vw;
+}
+.cactus8{
+    left: 1920vw;
+}
+.cactus9{
+    left: 2000vw;
+}
+.cactus10{
+    left: 2560vw;
+}
+.cactus11{
+    left: 2640vw;
+}
+.cactus12{
+    left: 3120vw;
+}
+.cactus13{
+    left: 3360vw;
+}
+.cactus14{
+    left: 3520vw;
+}
+
+/* Fly show in background */
+
+.fly{
+    width: 929px;
+    height: 580px;
+    background: url(../image/fly.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+}
+
+.fly1{
+    left: 400vw;
+}
+.fly2{
+    left: 560vw;
+}
+.fly3{
+    left: 720vw;
+}
+.fly4{
+    left: 800vw;
+}
+.fly5{
+    left: 1200vw;
+}
+.fly6{
+    left: 1360vw;
+}
+.fly7{
+    left: 1440vw;
+}
+.fly8{
+    left: 1760vw;
+}
+.fly9{
+    left: 2080vw;
+}
+.fly10{
+    left: 2160vw;
+}
+.fly11{
+    left: 2480vw;
+}
+.fly12{
+    left: 2720vw;
+}
+.fly13{
+    left: 2800vw;
+}
+.fly14{
+    left: 3040vw;
+}
+
+/* Dragon show in background */
+
+.dragon{
+    width: 929px;
+    height: 480px;
+    background: url(../image/dragon.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute; 
+    bottom: 308px;
+    left: 160vw;
+}
+.dragon1{
+    left: 480vw;
+}
+.dragon2{
+    left: 880vw;
+}
+.dragon3{
+    left: 960vw;
+}
+.dragon4{
+    left: 1280vw;
+}
+.dragon5{
+    left: 1600vw;
+}
+.dragon6{
+    left: 1680vw;
+}
+.dragon7{
+    left: 2240vw;
+}
+.dragon8{
+    left: 2320vw;
+}
+.dragon9{
+    left: 2400vw;
+}
+.dragon10{
+    left: 2880vw;
+}
+.dragon11{
+    left: 2960vw;
+}
+.dragon12{
+    left: 3200vw;
+}
+.dragon13{
+    left: 3280vw;
+}
+.dragon14{
+    left: 3440vw;
+}

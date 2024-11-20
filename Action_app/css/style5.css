@@ -1,0 +1,106 @@
+.bullet{
+    width: 450px;
+    height: 500px;
+}
+.rightbullet {
+    background: url(../image/runningbullet.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 1000px;
+    position: absolute;
+    top: 6px;
+    background-size: 400px 400px;
+}
+
+.rightfire{
+    background: url(../image/rightfire.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flybullet {
+    background: url(../image/flybullet.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 64px;
+    left: 255px;
+    background-size: 350px 350px;
+}
+
+.dragonbullet {
+    background: url(../image/dragonbullet.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 240px;
+    position: absolute;
+    top: 98px;
+    background-size: 250px 250px;
+}
+
+.flyfire{
+    background: url(../image/dragonfire.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dragonfire{
+    background: url(../image/jumpfire.png);
+    background-size: 350px 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.none{
+    height: 0px;
+    width: 0px;
+}
+
+
+@keyframes right-bullet{
+    0%{
+        left: 200px;
+    }
+    100%{
+        left: 2800px;
+    }
+}
+@keyframes dragon-bullet{
+    0%{
+        top: 98px;
+        left:240px;
+    }
+    100%{
+        top: 1074px;
+        left: 4070px;
+    }
+}
+@keyframes fly-bullet{
+    0%{
+        bottom: 64px;
+        left: 255px;
+    }
+    100%{
+        bottom: 1064px;
+        left: 3255px;
+    }
+}
+
+.right-bullet{
+    animation: right-bullet 0.5s linear;
+} 
+
+.dragon-bullet{
+    animation: dragon-bullet 0.5s linear;
+} 
+
+.fly-bullet{
+    animation: fly-bullet 0.5s linear;
+} 
+

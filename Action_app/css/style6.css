@@ -1,0 +1,14 @@
+.fly-none{
+    display: none;
+}
+
+.fire{
+    position: absolute;
+    width: 929px;
+    height: 580px;
+    background: url(../image/fire.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 500px;
+}

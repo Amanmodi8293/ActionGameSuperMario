@@ -1,0 +1,447 @@
+.levelcontainer{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 0px; 
+    left: 2188px; 
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 50%;
+    overflow: scroll;
+}
+
+#gameenter{
+    background-image: url(../image/city.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nameenter{
+    font-size: 300px;
+    color: #00fdff;
+    font-weight: bolder;
+    text-shadow: -25px 2px 14px red;
+}
+
+.anime{
+    position: absolute;
+    background-image: url(../image/beforestart.gif);
+    height: 1000px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 500px;
+    top: 800px;
+}
+
+.level{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 50px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 220px;
+    padding-left: 220px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level1{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 250px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level1:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level1:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level2{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 450px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level2:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level2:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level3{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 650px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level3:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level3:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level4{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 850px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level4:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level4:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level5{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 1050px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level5:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level5:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(6, 255, 27);
+
+}
+
+.level6{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 1250px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level6:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level6:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level7{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 1450px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level7:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level7:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level8{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 1650px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level8:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level8:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+.level9{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    top: 1850px; 
+    left: 800px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 20px 20px 10px 0px rgb(84, 0, 0);
+    cursor: pointer;
+}
+
+.level9:hover {
+    font-size: 120px;
+    height: 130px;
+    color: rgb(226, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(255, 0, 0);
+
+}
+
+.level9:active {
+    height: 140px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 10px 0px rgb(4, 255, 0);
+
+}
+
+
+
+/* @keyframes swipe{
+    0%{
+        left: -10vw;
+    }
+    100%{
+        left: -20vw;
+    }
+    
+}
+
+@keyframes swipe
+{
+    100%{
+        transform: translatex(-20vw)
+    }
+}
+
+.swipe{
+    animation: swipe 2s linear normal;
+} */
+
+.swipe{
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from{
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+    to{
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.swipen{
+    animation-duration: 1s;
+    animation-name: sliden;
+}
+
+@keyframes sliden{
+    from{
+        translate: 0 150vw;
+        scale: 200% 1;
+    }
+    to{
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.swipea{
+    animation-duration: 1s;
+    animation-name: slidea;
+}
+
+@keyframes slidea{
+    from{
+        translate: 50vw 40vw;
+        scale: 200% 1;
+    }
+    to{
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}

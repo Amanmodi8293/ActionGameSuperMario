@@ -1,0 +1,26 @@
+.beforestart{
+    background: url(../image/beforestart.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.runningstart{
+    background: url(../image/start.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jump{
+    background: url(../image/jump.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sit{
+    background: url(../image/sitdown.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,24 @@
+
+/* Utility classes */
+
+.background-animation{
+    animation: background-animation 100s linear infinite;
+}
+
+.road-animation{
+    animation: road-animation 100s linear infinite;
+}
+
+.boy-jump{
+    bottom: 800px;
+}
+.boy-sit{
+    bottom: 100px;
+}
+.container-animay{
+    animation: container 100s linear infinite;
+}
+.container-boy{
+    animation: container-boy 71s linear infinite;
+} 
+
